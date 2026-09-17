@@ -1,0 +1,1471 @@
+[2026-07-14 07:09:29] local.DEBUG: From: Laravel <hello@example.com>
+To: silva@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - Sadunika
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 07:09:29 +0000
+Message-ID: <f1f6fd8f89a7026d0152e634d956bfaf@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>K.Silva</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Sadunika</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 08:04:21] local.ERROR: Missing required parameter for [Route: dashboard.sendAlert] [URI: dashboard/send-alert/{id}] [Missing parameter: id]. (View: C:\xampp\htdocs\school_management_system\resources\views\dashboard.blade.php) {"userId":1,"exception":"[object] (Illuminate\\View\\ViewException(code: 0): Missing required parameter for [Route: dashboard.sendAlert] [URI: dashboard/send-alert/{id}] [Missing parameter: id]. (View: C:\\xampp\\htdocs\\school_management_system\\resources\\views\\dashboard.blade.php) at C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Exceptions/UrlGenerationException.php:35)
+[stacktrace]
+#0 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(59): Illuminate/View/Engines/CompilerEngine->handleViewException(Object(Illuminate/Routing/Exceptions/UrlGenerationException), 1)
+#1 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate/View/Engines/PhpEngine->evaluatePath('C://xampp//htdocs...', Array)
+#2 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate/View/Engines/CompilerEngine->get('C://xampp//htdocs...', Array)
+#3 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#4 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#5 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate/View/View->render()
+#6 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate/Http/Response->setContent(Object(Illuminate/View/View))
+#7 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate/Http/Response->__construct(Object(Illuminate/View/View), 200, Array)
+#8 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate/Routing/Router::toResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#9 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Routing/Router->prepareResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#10 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#11 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php(41): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#12 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/EnsureEmailIsVerified->handle(Object(Illuminate/Http/Request), Object(Closure))
+#13 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#14 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#15 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(63): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#16 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#18 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#20 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#22 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#23 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#25 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#30 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#31 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#32 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#33 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#34 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#35 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#36 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#37 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#39 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#41 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#42 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#46 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#48 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#54 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#55 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#56 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#57 C:/xampp/htdocs/school_management_system/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#58 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('C://xampp//htdocs...')
+#59 {main}
+
+[previous exception] [object] (Illuminate\\Routing\\Exceptions\\UrlGenerationException(code: 0): Missing required parameter for [Route: dashboard.sendAlert] [URI: dashboard/send-alert/{id}] [Missing parameter: id]. at C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Exceptions/UrlGenerationException.php:35)
+[stacktrace]
+#0 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/RouteUrlGenerator.php(94): Illuminate/Routing/Exceptions/UrlGenerationException::forMissingParameters(Object(Illuminate/Routing/Route), Array)
+#1 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(549): Illuminate/Routing/RouteUrlGenerator->to(Object(Illuminate/Routing/Route), Array, true)
+#2 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/UrlGenerator.php(526): Illuminate/Routing/UrlGenerator->toRoute(Object(Illuminate/Routing/Route), NULL, true)
+#3 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php(870): Illuminate/Routing/UrlGenerator->route('dashboard.sendA...', NULL, true)
+#4 C:/xampp/htdocs/school_management_system/storage/framework/views/40eb22d6fb92eb6f223d4aa4c9191b10.php(97): route('dashboard.sendA...', NULL)
+#5 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(123): require('C://xampp//htdocs...')
+#6 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(124): Illuminate/Filesystem/Filesystem::Illuminate/Filesystem/{closure}()
+#7 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/Engines/PhpEngine.php(57): Illuminate/Filesystem/Filesystem->getRequire('C://xampp//htdocs...', Array)
+#8 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(76): Illuminate/View/Engines/PhpEngine->evaluatePath('C://xampp//htdocs...', Array)
+#9 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/View.php(208): Illuminate/View/Engines/CompilerEngine->get('C://xampp//htdocs...', Array)
+#10 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/View.php(191): Illuminate/View/View->getContents()
+#11 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/View.php(160): Illuminate/View/View->renderContents()
+#12 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Response.php(78): Illuminate/View/View->render()
+#13 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Response.php(34): Illuminate/Http/Response->setContent(Object(Illuminate/View/View))
+#14 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(939): Illuminate/Http/Response->__construct(Object(Illuminate/View/View), 200, Array)
+#15 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(906): Illuminate/Routing/Router::toResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#16 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Routing/Router->prepareResponse(Object(Illuminate/Http/Request), Object(Illuminate/View/View))
+#17 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#18 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/Middleware/EnsureEmailIsVerified.php(41): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#19 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/EnsureEmailIsVerified->handle(Object(Illuminate/Http/Request), Object(Closure))
+#20 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#21 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(63): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#23 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#25 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#30 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#31 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#32 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#33 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#36 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#37 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#38 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#39 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#40 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#41 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#42 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#43 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#44 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#46 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#48 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#49 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#50 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#51 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#52 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#53 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#54 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#55 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#56 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#57 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#58 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#59 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#60 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#61 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#62 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#63 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#64 C:/xampp/htdocs/school_management_system/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#65 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('C://xampp//htdocs...')
+#66 {main}
+"} 
+[2026-07-14 08:09:20] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 08:09:20 +0000
+Message-ID: <0c8e1daa544b464b2a394253779a95df@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 08:13:37] local.DEBUG: From: Laravel <hello@example.com>
+To: gamini@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - Tharushi
+ Mendis
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 08:13:37 +0000
+Message-ID: <d26c2ef83491f96446e7df3d35e4f33b@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Gamini Bandara</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Tharushi Mendis</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 08:33:24] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ P.M.L.S.Amarasiri
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 08:33:24 +0000
+Message-ID: <abdf365c1d3e789463e25cead3d99c5a@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>P.M.L.S.Amarasiri</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 11:30:59] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - nimal
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 11:30:58 +0000
+Message-ID: <5421ddef2c4bdd839e9a49b9553fca31@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>nimal</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 11:33:21] local.DEBUG: From: Laravel <hello@example.com>
+To: gamini@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - Tharushi
+ Mendis
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 11:33:21 +0000
+Message-ID: <9745d9ab9094e193bdb9ff3fae835de7@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Gamini Bandara</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Tharushi Mendis</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 11:57:20] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - saman
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 11:57:20 +0000
+Message-ID: <d814bc704ee5f42f05da5e7f5562a7bd@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>saman</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">44%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 11:58:30] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ P.M.L.S.Amarasiri
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 11:58:30 +0000
+Message-ID: <402eabd00cea47280bcdb03b696685e8@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>P.M.L.S.Amarasiri</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:08:08] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:08:08 +0000
+Message-ID: <200996c236d3ec02cc42f707d90fa369@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:08:16] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - nimal
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:08:16 +0000
+Message-ID: <437053550df4fbc930a4f681cb2d5582@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>nimal</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:08:27] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:08:27 +0000
+Message-ID: <c8e07d1253cf27a876453e8459ce1c16@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:08:32] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:08:32 +0000
+Message-ID: <600b302209e764b7e318af1dfa8bba53@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:08:41] local.DEBUG: From: Laravel <hello@example.com>
+To: nirosha@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - Yashoda
+ Ekanayaka
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:08:41 +0000
+Message-ID: <ad1ad354dc059eb73aadb0898e764729@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Nirosha sewwandi</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Yashoda Ekanayaka</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:08:51] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:08:51 +0000
+Message-ID: <ad0e4244b8513130820ae6b54b8ff8bc@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:10:19] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:10:19 +0000
+Message-ID: <2035ad48d33b96860dceac97ac9933fc@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:12:29] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:12:29 +0000
+Message-ID: <e8b79d6da4c2da24457084a7e267c092@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:13:21] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:13:21 +0000
+Message-ID: <2cff27b0f9a52229c4c73bc45e3c09b3@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:13:37] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:13:37 +0000
+Message-ID: <3856f25dda2200b0c246bc477e1c1e27@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:18:44] local.DEBUG: From: Laravel <hello@example.com>
+To: nirosha@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - Yashoda
+ Ekanayaka
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:18:44 +0000
+Message-ID: <b61adcef3ca1c462af8c68893de1812c@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Nirosha sewwandi</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Yashoda Ekanayaka</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:25:50] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:25:50 +0000
+Message-ID: <0e9b8f04035eea83771376a8a20bd25e@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:29:30] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice -
+ Thilakarathne
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:29:30 +0000
+Message-ID: <a663bbdb1cb29c49910a6b180ed11fbe@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Thilakarathne</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">60%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:29:48] local.DEBUG: From: Laravel <hello@example.com>
+To: nirosha@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - Yashoda
+ Ekanayaka
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:29:48 +0000
+Message-ID: <bea8c18e7c4f597c65fda3d28267e6cd@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Nirosha sewwandi</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Yashoda Ekanayaka</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:39:19] local.DEBUG: From: Laravel <hello@example.com>
+To: nirosha@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - Yashoda
+ Ekanayaka
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:39:19 +0000
+Message-ID: <324110119b912bed923891028cc6b269@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Nirosha sewwandi</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Yashoda Ekanayaka</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:39:28] local.DEBUG: From: Laravel <hello@example.com>
+To: nirosha@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - Yashoda
+ Ekanayaka
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:39:28 +0000
+Message-ID: <554d5114a972945c956dba148aa53b2a@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Nirosha sewwandi</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Yashoda Ekanayaka</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 12:39:36] local.DEBUG: From: Laravel <hello@example.com>
+To: laknalisewwandi@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - nimal
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 12:39:36 +0000
+Message-ID: <39a4f691dd30279985919b418b2b467b@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Thilakawardane</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>nimal</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-14 23:25:59] local.ERROR: SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: school_management_db, SQL: select * from `personal_access_tokens` where `personal_access_tokens`.`id` = 20 limit 1) {"exception":"[object] (Illuminate\\Database\\QueryException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: school_management_db, SQL: select * from `personal_access_tokens` where `personal_access_tokens`.`id` = 20 limit 1) at C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php:838)
+[stacktrace]
+#0 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(999): Illuminate/Database/Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#1 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(978): Illuminate/Database/Connection->tryAgainIfCausedByLostConnection(Object(Illuminate/Database/QueryException), 'select * from `...', Array, Object(Closure))
+#2 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(796): Illuminate/Database/Connection->handleQueryException(Object(Illuminate/Database/QueryException), 'select * from `...', Array, Object(Closure))
+#3 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(411): Illuminate/Database/Connection->run('select * from `...', Array, Object(Closure))
+#4 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3505): Illuminate/Database/Connection->select('select * from `...', Array, true)
+#5 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3490): Illuminate/Database/Query/Builder->runSelect()
+#6 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(4080): Illuminate/Database/Query/Builder->Illuminate/Database/Query/{closure}()
+#7 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3489): Illuminate/Database/Query/Builder->onceWithColumns(Array, Object(Closure))
+#8 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(902): Illuminate/Database/Query/Builder->get(Array)
+#9 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate/Database/Eloquent/Builder->getModels(Array)
+#10 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(366): Illuminate/Database/Eloquent/Builder->get(Array)
+#11 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(568): Illuminate/Database/Eloquent/Builder->first(Array)
+#12 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate/Database/Eloquent/Builder->find('20')
+#13 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2544): Illuminate/Database/Eloquent/Model->forwardCallTo(Object(Illuminate/Database/Eloquent/Builder), 'find', Array)
+#14 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2560): Illuminate/Database/Eloquent/Model->__call('find', Array)
+#15 C:/xampp/htdocs/school_management_system/vendor/laravel/sanctum/src/PersonalAccessToken.php(66): Illuminate/Database/Eloquent/Model::__callStatic('find', Array)
+#16 C:/xampp/htdocs/school_management_system/vendor/laravel/sanctum/src/Guard.php(43): Laravel/Sanctum/PersonalAccessToken::findToken('B8ynTgSwbJDkzev...')
+#17 [internal function]: Laravel/Sanctum/Guard->__invoke(Object(Illuminate/Http/Request), NULL)
+#18 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/RequestGuard.php(56): call_user_func(Object(Laravel/Sanctum/Guard), Object(Illuminate/Http/Request), NULL)
+#19 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/GuardHelpers.php(56): Illuminate/Auth/RequestGuard->user()
+#20 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(82): Illuminate/Auth/RequestGuard->check()
+#21 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(61): Illuminate/Auth/Middleware/Authenticate->authenticate(Object(Illuminate/Http/Request), Array)
+#22 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure), 'sanctum')
+#23 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#24 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#25 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#26 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#27 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#28 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#29 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#30 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#31 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#32 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#33 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#37 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#39 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#41 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#42 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#43 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#44 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#45 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#46 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#47 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#48 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#49 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#50 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#51 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#52 C:/xampp/htdocs/school_management_system/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#53 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('C://xampp//htdocs...')
+#54 {main}
+
+[previous exception] [object] (PDOException(code: 2002): SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it at C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php:66)
+[stacktrace]
+#0 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(66): PDO->__construct('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#1 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(85): Illuminate/Database/Connectors/Connector->createPdoConnection('mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#2 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connectors/Connector.php(48): Illuminate/Database/Connectors/Connector->tryAgainIfCausedByLostConnection(Object(PDOException), 'mysql:host=127....', 'root', Object(SensitiveParameterValue), Array)
+#3 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connectors/MySqlConnector.php(24): Illuminate/Database/Connectors/Connector->createConnection('mysql:host=127....', Array, Array)
+#4 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connectors/ConnectionFactory.php(186): Illuminate/Database/Connectors/MySqlConnector->connect(Array)
+#5 [internal function]: Illuminate/Database/Connectors/ConnectionFactory->Illuminate/Database/Connectors/{closure}()
+#6 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1257): call_user_func(Object(Closure))
+#7 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(1295): Illuminate/Database/Connection->getPdo()
+#8 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(525): Illuminate/Database/Connection->getReadPdo()
+#9 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(420): Illuminate/Database/Connection->getPdoForSelect(true)
+#10 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(827): Illuminate/Database/Connection->Illuminate/Database/{closure}('select * from `...', Array)
+#11 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(999): Illuminate/Database/Connection->runQueryCallback('select * from `...', Array, Object(Closure))
+#12 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(978): Illuminate/Database/Connection->tryAgainIfCausedByLostConnection(Object(Illuminate/Database/QueryException), 'select * from `...', Array, Object(Closure))
+#13 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(796): Illuminate/Database/Connection->handleQueryException(Object(Illuminate/Database/QueryException), 'select * from `...', Array, Object(Closure))
+#14 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(411): Illuminate/Database/Connection->run('select * from `...', Array, Object(Closure))
+#15 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3505): Illuminate/Database/Connection->select('select * from `...', Array, true)
+#16 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3490): Illuminate/Database/Query/Builder->runSelect()
+#17 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(4080): Illuminate/Database/Query/Builder->Illuminate/Database/Query/{closure}()
+#18 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(3489): Illuminate/Database/Query/Builder->onceWithColumns(Array, Object(Closure))
+#19 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(902): Illuminate/Database/Query/Builder->get(Array)
+#20 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(884): Illuminate/Database/Eloquent/Builder->getModels(Array)
+#21 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php(366): Illuminate/Database/Eloquent/Builder->get(Array)
+#22 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(568): Illuminate/Database/Eloquent/Builder->first(Array)
+#23 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Support/Traits/ForwardsCalls.php(23): Illuminate/Database/Eloquent/Builder->find('20')
+#24 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2544): Illuminate/Database/Eloquent/Model->forwardCallTo(Object(Illuminate/Database/Eloquent/Builder), 'find', Array)
+#25 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(2560): Illuminate/Database/Eloquent/Model->__call('find', Array)
+#26 C:/xampp/htdocs/school_management_system/vendor/laravel/sanctum/src/PersonalAccessToken.php(66): Illuminate/Database/Eloquent/Model::__callStatic('find', Array)
+#27 C:/xampp/htdocs/school_management_system/vendor/laravel/sanctum/src/Guard.php(43): Laravel/Sanctum/PersonalAccessToken::findToken('B8ynTgSwbJDkzev...')
+#28 [internal function]: Laravel/Sanctum/Guard->__invoke(Object(Illuminate/Http/Request), NULL)
+#29 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/RequestGuard.php(56): call_user_func(Object(Laravel/Sanctum/Guard), Object(Illuminate/Http/Request), NULL)
+#30 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/GuardHelpers.php(56): Illuminate/Auth/RequestGuard->user()
+#31 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(82): Illuminate/Auth/RequestGuard->check()
+#32 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(61): Illuminate/Auth/Middleware/Authenticate->authenticate(Object(Illuminate/Http/Request), Array)
+#33 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Auth/Middleware/Authenticate->handle(Object(Illuminate/Http/Request), Object(Closure), 'sanctum')
+#34 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#35 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#36 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#37 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#38 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#39 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#40 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#41 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#42 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#44 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#45 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#46 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#48 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#54 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#55 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#56 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#57 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#58 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#59 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#60 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#61 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#62 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#63 C:/xampp/htdocs/school_management_system/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#64 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('C://xampp//htdocs...')
+#65 {main}
+"} 
+[2026-07-14 23:39:17] local.DEBUG: From: Laravel <hello@example.com>
+To: gamini@gmail.com
+Subject: =?utf-8?Q?=F0=9F=9A=A8?= URGENT: Low Attendance Notice - Tharushi
+ Mendis
+MIME-Version: 1.0
+Date: Tue, 14 Jul 2026 23:39:17 +0000
+Message-ID: <5d29bb5ac5072a31e70887d82ca42085@example.com>
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Low Attendance Alert</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; color: #333; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
+        <div style="background-color: #e11d48; color: white; padding: 20px; text-align: center;">
+            <h2 style="margin: 0;">Attendance Warning Notice</h2>
+        </div>
+        <div style="padding: 24px; background-color: #ffffff;">
+            <p>Dear <strong>Gamini Bandara</strong>,</p>
+            
+            <p>This is an automated notification from the School Management System to inform you regarding the attendance of your child, <strong>Tharushi Mendis</strong>.</p>
+            
+            <div style="background-color: #fff1f2; border-left: 4px solid #e11d48; padding: 15px; margin: 20px 0; border-radius: 4px;">
+                <p style="margin: 0; font-size: 16px; color: #9f1239;">
+                    Current Attendance Rate: <strong style="font-size: 20px;">50%</strong>
+                </p>
+                <p style="margin: 5px 0 0 0; font-size: 13px; color: #be123c;">Minimum required attendance is 75%.</p>
+            </div>
+
+            <p>Please note that low attendance may affect their academic eligibility and exam admissions. We highly recommend discussing this matter with your child to ensure regular attendance.</p>
+            
+            <p>If you have any queries or justification for absences (medical reasons, etc.), please reply to this email or contact the school office directly.</p>
+            
+            <hr style="border: 0; border-top: 1px solid #edf2f7; margin: 24px 0;">
+            <p style="font-size: 12px; color: #718096; text-align: center;">School Administration Team<br>© 2026 School MS. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>  
+[2026-07-15 05:25:42] local.ERROR: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`school_management_db`.`students`, CONSTRAINT `students_parent_id_foreign` FOREIGN KEY (`parent_id`) REFERENCES `parents` (`parent_id`)) (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: school_management_db, SQL: delete from `parents` where `parent_id` = 20) {"userId":1,"exception":"[object] (Illuminate\\Database\\QueryException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`school_management_db`.`students`, CONSTRAINT `students_parent_id_foreign` FOREIGN KEY (`parent_id`) REFERENCES `parents` (`parent_id`)) (Connection: mysql, Host: 127.0.0.1, Port: 3306, Database: school_management_db, SQL: delete from `parents` where `parent_id` = 20) at C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php:838)
+[stacktrace]
+#0 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(794): Illuminate/Database/Connection->runQueryCallback('delete from `pa...', Array, Object(Closure))
+#1 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(597): Illuminate/Database/Connection->run('delete from `pa...', Array, Object(Closure))
+#2 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(561): Illuminate/Database/Connection->affectingStatement('delete from `pa...', Array)
+#3 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(4426): Illuminate/Database/Connection->delete('delete from `pa...', Array)
+#4 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1480): Illuminate/Database/Query/Builder->delete()
+#5 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1578): Illuminate/Database/Eloquent/Builder->delete()
+#6 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1510): Illuminate/Database/Eloquent/Model->performDeleteOnModel()
+#7 C:/xampp/htdocs/school_management_system/app/Http/Controllers/ParentController.php(127): Illuminate/Database/Eloquent/Model->delete()
+#8 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/ParentController->destroy('20')
+#9 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/ParentController), 'destroy')
+#10 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate/Routing/Route->runController()
+#11 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#12 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#13 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#14 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#15 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#16 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#18 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#20 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#21 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#22 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#23 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#25 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#28 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#29 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#30 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#31 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#32 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#33 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#34 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#35 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#36 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#37 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#39 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#40 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#41 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#42 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#46 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#48 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#53 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#54 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#55 C:/xampp/htdocs/school_management_system/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#56 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('C://xampp//htdocs...')
+#57 {main}
+
+[previous exception] [object] (PDOException(code: 23000): SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`school_management_db`.`students`, CONSTRAINT `students_parent_id_foreign` FOREIGN KEY (`parent_id`) REFERENCES `parents` (`parent_id`)) at C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php:609)
+[stacktrace]
+#0 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(609): PDOStatement->execute()
+#1 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(827): Illuminate/Database/Connection->Illuminate/Database/{closure}('delete from `pa...', Array)
+#2 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(794): Illuminate/Database/Connection->runQueryCallback('delete from `pa...', Array, Object(Closure))
+#3 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(597): Illuminate/Database/Connection->run('delete from `pa...', Array, Object(Closure))
+#4 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Connection.php(561): Illuminate/Database/Connection->affectingStatement('delete from `pa...', Array)
+#5 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php(4426): Illuminate/Database/Connection->delete('delete from `pa...', Array)
+#6 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php(1480): Illuminate/Database/Query/Builder->delete()
+#7 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1578): Illuminate/Database/Eloquent/Builder->delete()
+#8 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php(1510): Illuminate/Database/Eloquent/Model->performDeleteOnModel()
+#9 C:/xampp/htdocs/school_management_system/app/Http/Controllers/ParentController.php(127): Illuminate/Database/Eloquent/Model->delete()
+#10 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(46): App/Http/Controllers/ParentController->destroy('20')
+#11 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Route.php(265): Illuminate/Routing/ControllerDispatcher->dispatch(Object(Illuminate/Routing/Route), Object(App/Http/Controllers/ParentController), 'destroy')
+#12 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Route.php(211): Illuminate/Routing/Route->runController()
+#13 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(822): Illuminate/Routing/Route->run()
+#14 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Routing/Router->Illuminate/Routing/{closure}(Object(Illuminate/Http/Request))
+#15 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(50): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#16 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Routing/Middleware/SubstituteBindings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#17 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(87): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#18 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/VerifyCsrfToken->handle(Object(Illuminate/Http/Request), Object(Closure))
+#19 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(48): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#20 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/View/Middleware/ShareErrorsFromSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#21 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(120): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#22 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(63): Illuminate/Session/Middleware/StartSession->handleStatefulRequest(Object(Illuminate/Http/Request), Object(Illuminate/Session/Store), Object(Closure))
+#23 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Session/Middleware/StartSession->handle(Object(Illuminate/Http/Request), Object(Closure))
+#24 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(36): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#25 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse->handle(Object(Illuminate/Http/Request), Object(Closure))
+#26 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(74): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#27 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Cookie/Middleware/EncryptCookies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#28 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#29 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(821): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#30 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(800): Illuminate/Routing/Router->runRouteWithinStack(Object(Illuminate/Routing/Route), Object(Illuminate/Http/Request))
+#31 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(764): Illuminate/Routing/Router->runRoute(Object(Illuminate/Http/Request), Object(Illuminate/Routing/Route))
+#32 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Routing/Router.php(753): Illuminate/Routing/Router->dispatchToRoute(Object(Illuminate/Http/Request))
+#33 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(200): Illuminate/Routing/Router->dispatch(Object(Illuminate/Http/Request))
+#34 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate/Foundation/Http/Kernel->Illuminate/Foundation/Http/{closure}(Object(Illuminate/Http/Request))
+#35 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#36 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#37 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull->handle(Object(Illuminate/Http/Request), Object(Closure))
+#38 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#39 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate/Foundation/Http/Middleware/TransformsRequest->handle(Object(Illuminate/Http/Request), Object(Closure))
+#40 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/TrimStrings->handle(Object(Illuminate/Http/Request), Object(Closure))
+#41 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#42 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePostSize->handle(Object(Illuminate/Http/Request), Object(Closure))
+#43 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(109): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#44 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance->handle(Object(Illuminate/Http/Request), Object(Closure))
+#45 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(61): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#46 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/HandleCors->handle(Object(Illuminate/Http/Request), Object(Closure))
+#47 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#48 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/TrustProxies->handle(Object(Illuminate/Http/Request), Object(Closure))
+#49 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#50 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks->handle(Object(Illuminate/Http/Request), Object(Closure))
+#51 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePathEncoding.php(26): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#52 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(219): Illuminate/Http/Middleware/ValidatePathEncoding->handle(Object(Illuminate/Http/Request), Object(Closure))
+#53 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(137): Illuminate/Pipeline/Pipeline->Illuminate/Pipeline/{closure}(Object(Illuminate/Http/Request))
+#54 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(175): Illuminate/Pipeline/Pipeline->then(Object(Closure))
+#55 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(144): Illuminate/Foundation/Http/Kernel->sendRequestThroughRouter(Object(Illuminate/Http/Request))
+#56 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1220): Illuminate/Foundation/Http/Kernel->handle(Object(Illuminate/Http/Request))
+#57 C:/xampp/htdocs/school_management_system/public/index.php(20): Illuminate/Foundation/Application->handleRequest(Object(Illuminate/Http/Request))
+#58 C:/xampp/htdocs/school_management_system/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(23): require_once('C://xampp//htdocs...')
+#59 {main}
+"} 

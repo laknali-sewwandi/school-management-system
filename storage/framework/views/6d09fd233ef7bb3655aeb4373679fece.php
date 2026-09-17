@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Class - School MS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-50 font-sans antialiased">
+    <div class="min-h-screen flex">
+        
+        <?php echo $__env->make('layouts.sidebar', array_diff_key(get_defined_vars(), ['__data' => 1, '__path' => 1]))->render(); ?>
+
+        <div class="flex-1 p-10 overflow-y-auto bg-slate-50">
+            
+            <div class="flex justify-between items-center mb-10">
+                <div class="flex items-center gap-4">
+                    <div class="bg-violet-100 p-3 rounded-2xl text-violet-600 shadow-sm">
+                        <i class="fa-solid fa-pen-to-square text-2xl"></i>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-extrabold text-slate-800">Edit Class</h2>
+                        <p class="text-slate-500 mt-1 text-sm font-medium">Update class details and assignments</p>
+                    </div>
+                </div>
+                <a href="<?php echo e(route('classes.index')); ?>" class="bg-white border border-slate-200 text-slate-700 hover:bg-slate-100 font-bold py-2.5 px-5 rounded-xl shadow-sm transition-all duration-300 flex items-center text-sm">
+                    <i class="fa-solid fa-arrow-left mr-2"></i> Back to List
+                </a>
+            </div>
+
+            <div class="bg-white rounded-3xl shadow-lg border border-slate-100 overflow-hidden relative max-w-4xl">
+                
+                <div class="h-2 w-full bg-gradient-to-r from-violet-600 to-fuchsia-600 absolute top-0 left-0"></div>
+                
+                <form action="<?php echo e(route('classes.update', $schoolClass->class_id)); ?>" method="POST" class="p-10">
+                    <?php echo csrf_field(); ?>
+                    <?php echo method_field('PUT'); ?>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                        
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Class Name <span class="text-red-500">*</span></label>
+                            <div class="relative">
+                                <i class="fa-solid fa-layer-group absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
+                                <input type="text" name="class_name" value="<?php echo e($schoolClass->class_name); ?>" required class="w-full pl-11 pr-4 py-3.5 rounded-xl border border-slate-200 focus:outline-none focus:border-violet-500 focus:ring-4 focus:ring-violet-500/10 bg-slate-50 focus:bg-white text-sm font-medium transition-all text-slate-700">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Section <span class="text-red-500">*</span></label>
+                            <div class="relative">
+                                <i class="fa-solid fa-shapes absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
+                                <input type="text" name="section" value="<?php echo e($schoolClass->section); ?>" required class="w-full pl-11 pr-4 py-3.5 rounded-xl border border-slate-200 focus:outline-none focus:border-violet-500 focus:ring-4 focus:ring-violet-500/10 bg-slate-50 focus:bg-white text-sm font-medium transition-all text-slate-700">
+                            </div>
+                        </div>
+
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-bold text-slate-700 mb-2">Class Teacher (Optional)</label>
+                            <div class="relative">
+                                <i class="fa-solid fa-chalkboard-user absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
+                                <select name="teacher_id" class="w-full pl-11 pr-4 py-3.5 rounded-xl border border-slate-200 focus:outline-none focus:border-violet-500 focus:ring-4 focus:ring-violet-500/10 bg-slate-50 focus:bg-white text-sm font-medium transition-all text-slate-700 appearance-none">
+                                    <option value="">-- Select a Teacher --</option>
+                                    <?php $__currentLoopData = $teachers; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $teacher): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                        <option value="<?php echo e($teacher->teacher_id); ?>" <?php echo e($schoolClass->teacher_id == $teacher->teacher_id ? 'selected' : ''); ?>>
+                                            <?php echo e($teacher->name); ?> (ID: <?php echo e($teacher->teacher_id); ?>)
+                                        </option>
+                                    <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                </select>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex items-center justify-end gap-4 mt-8 pt-8 border-t border-slate-50">
+                        <button type="submit" class="bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-700 hover:to-fuchsia-700 text-white font-bold py-3.5 px-8 rounded-xl shadow-lg shadow-violet-500/30 transition-all duration-300 flex items-center">
+                            <i class="fa-solid fa-check mr-2"></i> Update Class
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html><?php /**PATH C:\xampp\htdocs\school_management_system\resources\views/classes/edit.blade.php ENDPATH**/ ?>
